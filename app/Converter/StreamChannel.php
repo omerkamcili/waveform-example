@@ -14,9 +14,8 @@ class StreamChannel implements ChannelInterface
      * StreamChannel constructor.
      * @param string $channelName
      * @param string $stream
-     * @param float $totalSessionTime
      */
-    public function __construct(protected string $channelName, protected string $stream, protected float $totalSessionTime)
+    public function __construct(protected string $channelName, protected string $stream)
     {
     }
 
@@ -34,14 +33,6 @@ class StreamChannel implements ChannelInterface
     public function getChannelName(): string
     {
         return $this->channelName;
-    }
-
-    /**
-     * @return float
-     */
-    public function getTotalTime(): float
-    {
-        return $this->totalSessionTime;
     }
 
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2dc516b42cab6323a8a8f7e0fec7258",
+    "content-hash": "a9d2fd960c6e37ca094ebb5eaeb2a591",
     "packages": [
         {
             "name": "brick/math",
@@ -2383,16 +2383,16 @@
         },
         {
             "name": "omerkamcili/waveform-genarator",
-            "version": "1.0.3",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/omerkamcili/waveform-genarator.git",
-                "reference": "65c589c98eff64852b59db7bdfe2e6363acd82aa"
+                "reference": "61e4fd8aa4ae4297f890126b3cabb8519c2486de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/omerkamcili/waveform-genarator/zipball/65c589c98eff64852b59db7bdfe2e6363acd82aa",
-                "reference": "65c589c98eff64852b59db7bdfe2e6363acd82aa",
+                "url": "https://api.github.com/repos/omerkamcili/waveform-genarator/zipball/61e4fd8aa4ae4297f890126b3cabb8519c2486de",
+                "reference": "61e4fd8aa4ae4297f890126b3cabb8519c2486de",
                 "shasum": ""
             },
             "require": {
@@ -2417,9 +2417,9 @@
             "description": "Detect ffmpeg silence and make it useful format",
             "support": {
                 "issues": "https://github.com/omerkamcili/waveform-genarator/issues",
-                "source": "https://github.com/omerkamcili/waveform-genarator/tree/1.0.3"
+                "source": "https://github.com/omerkamcili/waveform-genarator/tree/1.1.0"
             },
-            "time": "2022-02-22T18:30:46+00:00"
+            "time": "2022-02-23T06:23:41+00:00"
         },
         {
             "name": "phpoption/phpoption",

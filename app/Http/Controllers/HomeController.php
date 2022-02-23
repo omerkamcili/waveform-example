@@ -38,11 +38,12 @@ class HomeController extends Controller
     public function process(Request $request): View
     {
 
-        $totalSessionTime = $request->get('total_session_time');
-        $channel1 = new StreamChannel($request->get('channel_name_1'), $request->get('raw_input_1'), $totalSessionTime);
-        $channel2 = new StreamChannel($request->get('channel_name_2'), $request->get('raw_input_2'), $totalSessionTime);
+        $channel1 = new StreamChannel($request->get('channel_name_1'), $request->get('raw_input_1'));
+        $channel2 = new StreamChannel($request->get('channel_name_2'), $request->get('raw_input_2'));
 
         $parser = new FFMpegParser();
+
+        $totalSessionTime = $request->get('total_session_time');
         $converter = new Converter($parser, $totalSessionTime);
         $converter->addChannel($channel1);
         $converter->addChannel($channel2);
